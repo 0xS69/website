@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+body {
+    background: #101010;
+    color: #FFF;
+}
+
+:root {
+    --so: #4ADE80;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ********************* Close Accounts ********************* */ 
+/* ********************************************************* */ 
+
+.dapp {
+    height: 100dvh;
+    display: flex;
+}
+
+.background {
+
+    background-image: linear-gradient(transparent, hsla(142, 69%, 58%, 0.15)),
+        linear-gradient(-90deg, transparent 25%, rgba(0, 0, 0, 0.5)), url("/bg.png");
+
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    z-index: -10;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    position: absolute;
+
+}
+
+.content {
+    padding: 3rem 3rem 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex: auto;
+}
+
+
+
+@media only screen and ( max-width: 480px) {
+    .background {
+        display: none;
+    }
+
+    .content {
+        padding: 2rem;
+    }
+    
+}
