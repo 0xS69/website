@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 
 export default function AirdropPage() {
     function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
@@ -23,10 +24,14 @@ export default function AirdropPage() {
                         Ordex
                     </span>
                 </div>
-                <a href="/" className="border bg-(--so) text-black text-xs font-black
-                h-10 px-8 flex items-center rounded-lg">
-                    LET'Z GO
-                </a>
+<Link
+  href="/"
+  className="border bg-(--so) text-black text-xs font-black
+             h-10 px-8 flex items-center rounded-lg"
+>
+  LET&apos;Z GO
+</Link>
+
             </header>
 
             <main className="flex-auto flex items-center justify-center text-center">
