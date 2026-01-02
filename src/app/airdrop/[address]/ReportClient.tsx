@@ -51,6 +51,12 @@ export default function ReportClient({
               </p>
             </>
           )}
+          <div className="md:w-1/4 w-full text-xs text-zinc-400 leading-relaxed">
+            <p>
+              close empty token accounts to reclaim solana rent and improve your
+              engagement may result in higher airdrop allocations.
+            </p>
+          </div>
         </div>
       </main>
       <footer className="flex justify-between text-xs text-zinc-600">
