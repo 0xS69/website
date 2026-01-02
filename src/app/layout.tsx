@@ -1,14 +1,11 @@
 import type { Metadata } from "next";
 import "~/style/main.css";
 
-import { Rajdhani } from 'next/font/google';
-const rajdhani = Rajdhani({ subsets: ['latin'], weight: ['400', '700'] });
-
 import { Provider } from "~/lib/provider";
 
 export const metadata: Metadata = {
   title: "Ordex",
-  description: "Burn worthless tokens, close accounts, reclaim solana...",
+  description: "Close empty token accounts and reclaim solana.",
 };
 
 export default function RootLayout({
@@ -17,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={rajdhani.className}>
+    <html lang="en">
       <head>
         <link
           rel="stylesheet"

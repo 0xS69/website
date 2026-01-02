@@ -14,6 +14,7 @@ interface ProviderProps {
 export const Provider: FC<ProviderProps> = ({ children }) => {
 
   const endpoint = "https://solana-rpc.publicnode.com";
+
   return (
     <ConnectionProvider endpoint={endpoint}>
       <WalletProvider wallets={[]} autoConnect>

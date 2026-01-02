@@ -58,7 +58,10 @@ export default function DustBuster() {
                     < Balance />
 
                 </section>
-                <footer className="md:flex justify-end text-xs hidden ">
+                <footer className="md:flex justify-between text-xs hidden ">
+                    <span>
+                        Under Development...
+                    </span>
                     <span>
                         v0.1.0
                     </span>
