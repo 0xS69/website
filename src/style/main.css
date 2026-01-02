@@ -1,16 +1,5 @@
 @import "tailwindcss";
 
-@font-face {
-  font-family: "PPSupplyMono";
-  src: url("https://assets.codepen.io/7558/PPSupplyMono-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-* {
-  font-family: "PPSupplyMono";
-}
-
 
 body {
     background: #101010;
